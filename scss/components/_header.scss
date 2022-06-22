@@ -1,0 +1,69 @@
+header {
+    background-color: rgb(49,47,42);
+    .container, .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: rgb(49, 47, 42);
+        .logo {
+            margin: 0;
+            padding: 25px 30px;
+            font-weight: bold;
+            color: rgb(206,176,137);
+            font-size: 1.6em;
+
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 25px;
+            a {
+                padding: 5px 12px;
+                font-size: 20px;
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(236,211,173);
+                &:hover {
+                    color: rgb(146,128,105);
+                }
+            }
+        }
+    }
+#productos {
+    h1 { font-size: 2.5em; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgba(255, 241, 241, 0.931);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../multimedia/imagenes/muebles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    button {
+        font-size: 1.45em;
+        font-weight: bold;
+        padding: 8px 10px;
+        border-radius: 35px;
+        border: 1px solid black;
+        color: rgb(0,0,0);
+        background-color: rgb(206,176,137);
+        font-family: 'Cinzel', serif; 
+        &:hover {
+            background-color: rgb(172,148,116);
+        }
+
+        
+    }
+}
+}

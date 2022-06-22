@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto" , sans-serif; }
+
+header {
+  background-color: #312f2a; }
+  header .container, header .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #312f2a; }
+    header .container .logo, header .navbar .logo {
+      margin: 0;
+      padding: 25px 30px;
+      font-weight: bold;
+      color: #ceb089;
+      font-size: 1.6em; }
+    header .container nav, header .navbar nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 25px; }
+      header .container nav a, header .navbar nav a {
+        padding: 5px 12px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ecd3ad; }
+        header .container nav a:hover, header .navbar nav a:hover {
+          color: #928069; }
+  header #productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgba(255, 241, 241, 0.931);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/muebles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    header #productos h1 {
+      font-size: 2.5em; }
+    header #productos button {
+      font-size: 1.45em;
+      font-weight: bold;
+      padding: 8px 10px;
+      border-radius: 35px;
+      border: 1px solid black;
+      color: black;
+      background-color: #ceb089;
+      font-family: 'Cinzel', serif; }
+      header #productos button:hover {
+        background-color: #ac9474; }
+
+#quienes-somos .container {
+  text-align: center;
+  padding: 200px 12px; }
+  #quienes-somos .container p {
+    font-size: 1.25em; }
+  #quienes-somos .container h2 {
+    font-size: 1.8em; }
+  #quienes-somos .container .color-acento {
+    color: #b8a792; }
+
+#servicios {
+  background-color: #5a5a5a;
+  color: #fdfeff;
+  text-align: center; }
+  #servicios .container {
+    padding: 100px 0px; }
+    #servicios .container h2 {
+      font-size: 2.3em;
+      margin-top: 0; }
+    #servicios .container .first .carta p {
+      display: none; }
+    #servicios .container .first .carta h3 {
+      font-size: 1.7em; }
+    #servicios .container .first .carta button {
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 8px 10px;
+      border-radius: 35px;
+      border: 1px solid black;
+      box-shadow: 2px 2px 5px black;
+      color: black;
+      background-color: #ceb089;
+      font-family: 'Cinzel', serif; }
+      #servicios .container .first .carta button:hover {
+        background-color: #ac9474; }
+    #servicios .container .first .carta .carta:first-child {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/personalizado.png");
+      background-position: center center;
+      background-size: cover;
+      padding: 150px;
+      margin: 20px;
+      border-radius: 15px; }
+    #servicios .container .first .carta .carta:nth-child(2) {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/domicilio.png");
+      background-position: center center;
+      background-size: cover;
+      padding: 150px;
+      margin: 20px;
+      border-radius: 15px; }
+    #servicios .container .first .carta .carta:nth-child(3) {
+      background-image: linear-gradient(0deg rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/vehiculos.png");
+      background-position: center center;
+      background-size: cover;
+      padding: 150px;
+      margin: 20px;
+      border-radius: 15px; }
+
+#donde-estamos {
+  margin-top: 80px; }
+  #donde-estamos h1 {
+    font-size: 2.5em; }
+  #donde-estamos .dondes {
+    text-align: center;
+    background-color: #5d5c5c;
+    color: #f0cea2; }
+
+footer {
+  background-color: #312f2a;
+  margin-top: 50px; }
+  footer .copy {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    footer .copy p {
+      font-size: 19px;
+      margin: 0;
+      padding: 2px;
+      color: #8f8f8f; }
+  footer .links {
+    display: flex; }
+    footer .links .redes {
+      width: 42px;
+      border: none; }
+    footer .links .navbar {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: auto; }
+      footer .links .navbar a {
+        text-align: center;
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ecd3ad;
+        font-size: 19px; }
+        footer .links .navbar a:hover {
+          color: #928069; }
+
+@media (min-width: 720px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between; }
+    header .container nav {
+      flex-direction: row;
+      padding-bottom: 0; } }
+
+@media (max-width: 40px) {
+  header {
+    text-align: center; }
+  .containera .contenta {
+    grid-column: 1/-1; }
+  .containera .contenta {
+    grid-column: 1/-1; }
+  .contianera .sidebar {
+    grid-column: 1/-1; }
+  .relate-post {
+    margin: 20px; } }
+
+.ae {
+  background-image: url("../multimedia/imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .ae .produc {
+    background-color: rgba(244, 244, 244, 0.257);
+    display: flex;
+    justify-content: flex-start; }
+
+.containers {
+  max-width: 1000; }
+  .containers img {
+    width: 90%;
+    border: solid black; }
+
+.creditos a {
+  text-decoration: none;
+  color: black; }
+
+.domicilio {
+  background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .domicilio .titlea .thea {
+    margin-top: 0%;
+    background-color: rgba(169, 157, 141, 0.996);
+    padding: 50px;
+    text-align: center;
+    font-size: 1.9em; }
+  .domicilio .containera {
+    background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    margin: 100%;
+    max-width: 10000px;
+    margin: 1.6em auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); }
+    .domicilio .containera .headera {
+      background: #d7a57c;
+      padding: 50px;
+      border: 1px solid black;
+      grid-column: 1/6;
+      text-align: center;
+      margin: 0px 40px 0px 40px; }
+      .domicilio .containera .headera h1 {
+        font-size: 40px;
+        font-weight: bold; }
+    .domicilio .containera .contenta {
+      background: #aea7a7;
+      padding: 40px;
+      border: 1px solid black;
+      grid-column: span 5;
+      margin: 0px 40px 0px 40px; }
+    .domicilio .containera .article {
+      background-color: #979797;
+      padding: 40px;
+      margin-top: 5px;
+      margin: 5px 5px 5px 5px;
+      color: white;
+      font-size: 19px; }
+      .domicilio .containera .article h1 {
+        padding: 10px;
+        font-size: 40px; }
+      .domicilio .containera .article p {
+        padding: 10px;
+        font-size: 20px; }
+    .domicilio .containera .sidebar {
+      margin: 0px 40px 0px 40px;
+      background: #FFF;
+      padding: 40px;
+      border: 1px solid black;
+      grid-column: span 5;
+      background-color: #979797;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .domicilio .containera .sidebar img {
+        width: 100%;
+        margin-top: 5px; }
+    .domicilio .containera .relate-post {
+      border: 1px solid black;
+      background-color: #979797;
+      color: white;
+      height: 180px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.6 ease;
+      margin: 10px; }
+      .domicilio .containera .relate-post:hover {
+        cursor: pointer;
+        color: black;
+        background-color: #5f5e5e; }

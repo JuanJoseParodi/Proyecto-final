@@ -1,0 +1,44 @@
+footer {
+    background-color: rgb(49,47,42);
+    margin-top: 50px;
+    .copy {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            font-size: 19px;
+            margin: 0;
+            padding: 2px;
+            color: rgb(143,143,143);
+        }
+    }
+    .links {
+        display: flex;
+        .redes{
+            width: 42px;
+            border: none;
+        }
+         .navbar {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            
+            a{
+                text-align: center;
+                padding: 5px 12px;
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(236,211,173);
+                font-size: 19px;
+                &:hover {
+                    color: rgb(146,128,105);
+                }
+            }
+         }
+
+    }
+
+
+}
