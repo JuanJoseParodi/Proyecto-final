@@ -1,23 +1,24 @@
 .domicilio {
-    background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+    background-color: rgb(236,218,194);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     .titlea {
+        a { text-decoration: none;}
         .thea{
+            color: rgb(206,176,137);
             margin-top: 0%;
-            background-color: rgba(169, 157, 141, 0.996);
+            background-color: rgb(49, 47, 42);
             padding: 50px;
             text-align: center;
             font-size: 1.9em;
         }
     }
     .containera {
-        background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+        background-color: rgb(236, 218, 194);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        background-color: rgb(255,255,255);
         margin: 100%;
         max-width: 10000px;
         margin: 1.6em auto;
@@ -26,15 +27,15 @@
         grid-template-columns: repeat(5,1fr);
         .headera {
             h1 {font-size: 40px; font-weight: bold;}
-            background: rgb(215, 165, 124);
-            padding: 50px;
+            background:rgb(206,176,137);
+            padding: 30px;
             border: 1px solid black;
             grid-column: 1/6;
             text-align: center;
             margin: 0px 40px 0px 40px;
         }
         .contenta {
-            background: rgb(174, 167, 167);
+            background: rgb(90,90,90);
             padding: 40px;
             border: 1px solid black;
             grid-column: span 5;
@@ -42,7 +43,7 @@
             
         }
         .article {
-            background-color: #979797;
+            background-color: rgb(90, 90,90);
             padding: 40px;
             margin-top: 5px;
             margin: 5px 5px 5px 5px;
@@ -58,7 +59,7 @@
             padding: 40px;
             border: 1px solid black;
             grid-column: span 5;
-            background-color: #979797;
+            background-color: rgb(90, 90,90);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -66,10 +67,11 @@
                 width: 100%;
                 margin-top: 5px;
             }
+            p {color: white; font-weight: bold;}
         }
         .relate-post {
             border: 1px solid black;
-            background-color: #979797;
+            background-color: rgb(90, 90, 90);
             color: white;
             height: 180px;
             text-align: center;
@@ -81,7 +83,7 @@
             &:hover {
                 cursor: pointer;
                 color: black;
-                background-color: rgb(95, 94, 94);
+                background-color: rgba(93, 91, 88, 0.923);
             }
         }
     }

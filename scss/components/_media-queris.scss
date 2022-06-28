@@ -8,12 +8,14 @@
       }
   }
 
+
 }
 
 
-@media (max-width: 40px) {
+@media (min-width: 40px) {
   header {
       text-align: center;
+      
   }
   .containera .contenta {
       grid-column: 1/-1;
@@ -27,4 +29,13 @@
   .relate-post {
       margin: 20px;
   }
+
+}
+
+
+//productos.html
+@media (min-width: 50px) {
+    .containers {
+        margin: 13px 13px 13px 13px;
+    }
 }

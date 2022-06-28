@@ -1,27 +1,34 @@
 .ae {
-    background-image: url("../multimedia/imagenes/fondo.jpg");
+    background-color: rgb(195, 174, 146);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     .produc {
-        background-color: rgba(244, 244, 244, 0.257);
+        background-color: rgb(49, 47, 42);
         display: flex;
         justify-content: flex-start;
-
+        h1 {
+            color: rgb(206,176,137); 
+        }
+        a {
+            text-decoration: none;
+        }
     }
+    
 
 }
 
 .containers {
-    max-width: 1000;
+
+    max-width: 120em;
     img {
-        width: 90%;
+        width: 100%;
         border: solid black;
     }
 }
 .creditos {
     a{
         text-decoration: none;
-        color: rgb(0,0,0);
+        color: rgb(0, 0, 0);
     }
 }

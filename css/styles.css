@@ -18,6 +18,8 @@ header {
     position: sticky;
     top: 0;
     background-color: #312f2a; }
+    header .container .vuelta, header .navbar .vuelta {
+      text-decoration: none; }
     header .container .logo, header .navbar .logo {
       margin: 0;
       padding: 25px 30px;
@@ -102,21 +104,21 @@ header {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/personalizado.png");
       background-position: center center;
       background-size: cover;
-      padding: 150px;
+      padding: 50px;
       margin: 20px;
       border-radius: 15px; }
     #servicios .container .first .carta .carta:nth-child(2) {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/domicilio.png");
       background-position: center center;
       background-size: cover;
-      padding: 150px;
+      padding: 50px;
       margin: 20px;
       border-radius: 15px; }
     #servicios .container .first .carta .carta:nth-child(3) {
       background-image: linear-gradient(0deg rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("../multimedia/imagenes/vehiculos.png");
       background-position: center center;
       background-size: cover;
-      padding: 150px;
+      padding: 50px;
       margin: 20px;
       border-radius: 15px; }
 
@@ -170,7 +172,7 @@ footer {
       flex-direction: row;
       padding-bottom: 0; } }
 
-@media (max-width: 40px) {
+@media (min-width: 40px) {
   header {
     text-align: center; }
   .containera .contenta {
@@ -182,20 +184,28 @@ footer {
   .relate-post {
     margin: 20px; } }
 
+@media (min-width: 50px) {
+  .containers {
+    margin: 13px 13px 13px 13px; } }
+
 .ae {
-  background-image: url("../multimedia/imagenes/fondo.jpg");
+  background-color: #c3ae92;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
   .ae .produc {
-    background-color: rgba(244, 244, 244, 0.257);
+    background-color: #312f2a;
     display: flex;
     justify-content: flex-start; }
+    .ae .produc h1 {
+      color: #ceb089; }
+    .ae .produc a {
+      text-decoration: none; }
 
 .containers {
-  max-width: 1000; }
+  max-width: 120em; }
   .containers img {
-    width: 90%;
+    width: 100%;
     border: solid black; }
 
 .creditos a {
@@ -203,30 +213,32 @@ footer {
   color: black; }
 
 .domicilio {
-  background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+  background-color: #ecdac2;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
+  .domicilio .titlea a {
+    text-decoration: none; }
   .domicilio .titlea .thea {
+    color: #ceb089;
     margin-top: 0%;
-    background-color: rgba(169, 157, 141, 0.996);
+    background-color: #312f2a;
     padding: 50px;
     text-align: center;
     font-size: 1.9em; }
   .domicilio .containera {
-    background-image: url("../multimedia/imagenes/fondo-servicios.jpg");
+    background-color: #ecdac2;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: white;
     margin: 100%;
     max-width: 10000px;
     margin: 1.6em auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr); }
     .domicilio .containera .headera {
-      background: #d7a57c;
-      padding: 50px;
+      background: #ceb089;
+      padding: 30px;
       border: 1px solid black;
       grid-column: 1/6;
       text-align: center;
@@ -235,13 +247,13 @@ footer {
         font-size: 40px;
         font-weight: bold; }
     .domicilio .containera .contenta {
-      background: #aea7a7;
+      background: #5a5a5a;
       padding: 40px;
       border: 1px solid black;
       grid-column: span 5;
       margin: 0px 40px 0px 40px; }
     .domicilio .containera .article {
-      background-color: #979797;
+      background-color: #5a5a5a;
       padding: 40px;
       margin-top: 5px;
       margin: 5px 5px 5px 5px;
@@ -259,16 +271,19 @@ footer {
       padding: 40px;
       border: 1px solid black;
       grid-column: span 5;
-      background-color: #979797;
+      background-color: #5a5a5a;
       display: flex;
       justify-content: center;
       align-items: center; }
       .domicilio .containera .sidebar img {
         width: 100%;
         margin-top: 5px; }
+      .domicilio .containera .sidebar p {
+        color: white;
+        font-weight: bold; }
     .domicilio .containera .relate-post {
       border: 1px solid black;
-      background-color: #979797;
+      background-color: #5a5a5a;
       color: white;
       height: 180px;
       text-align: center;
@@ -280,4 +295,4 @@ footer {
       .domicilio .containera .relate-post:hover {
         cursor: pointer;
         color: black;
-        background-color: #5f5e5e; }
+        background-color: rgba(93, 91, 88, 0.923); }
