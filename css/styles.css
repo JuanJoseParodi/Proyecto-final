@@ -175,7 +175,7 @@ footer {
       flex-direction: row;
       padding-bottom: 0; } }
 
-@media (min-width: 840px) {
+@media (min-width: 720px) {
   .containera .contenta {
     grid-column: 1/-1; }
   .containera .contenta {
@@ -183,7 +183,7 @@ footer {
   .contianera .sidebar {
     grid-column: 1/-1; } }
 
-@media (min-width: 100px) {
+@media (min-width: 720px) {
   .containers {
     margin: 13px 13px 13px 13px; } }
 
