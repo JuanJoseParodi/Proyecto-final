@@ -12,11 +12,7 @@
 }
 
 
-@media (min-width: 40px) {
-  header {
-      text-align: center;
-      
-  }
+@media (min-width: 840px) {
   .containera .contenta {
       grid-column: 1/-1;
   }
@@ -25,16 +21,14 @@
   }
   .contianera .sidebar {
       grid-column: 1/-1;
-  }
-  .relate-post {
-      margin: 20px;
-  }
-
+  } 
+  
+    
 }
 
 
 //productos.html
-@media (min-width: 50px) {
+@media (min-width: 100px) {
     .containers {
         margin: 13px 13px 13px 13px;
     }

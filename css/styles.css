@@ -50,7 +50,7 @@ header {
     flex-direction: column;
     height: 90vh;
     color: rgba(255, 241, 241, 0.931);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/muebles.webp");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/muebles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
@@ -104,22 +104,22 @@ header {
       #servicios .container .first .carta button:hover {
         background-color: #ac9474; }
     #servicios .container .first .cartauno {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/personalizado.webp");
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/personalizado.png");
       background-position: center;
       background-size: cover;
       padding: 50px;
       margin: 20px;
       border-radius: 15px; }
     #servicios .container .first .cartados {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/domicilio.webp");
-      background-position: center center;
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/domicilio.png");
+      background-position: center;
       background-size: cover;
       padding: 50px;
       margin: 20px;
       border-radius: 15px; }
     #servicios .container .first .cartatres {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/vehiculos.webp");
-      background-position: center center;
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/imagenes/vehiculos.png");
+      background-position: center;
       background-size: cover;
       padding: 50px;
       margin: 20px;
@@ -175,19 +175,15 @@ footer {
       flex-direction: row;
       padding-bottom: 0; } }
 
-@media (min-width: 40px) {
-  header {
-    text-align: center; }
+@media (min-width: 840px) {
   .containera .contenta {
     grid-column: 1/-1; }
   .containera .contenta {
     grid-column: 1/-1; }
   .contianera .sidebar {
-    grid-column: 1/-1; }
-  .relate-post {
-    margin: 20px; } }
+    grid-column: 1/-1; } }
 
-@media (min-width: 50px) {
+@media (min-width: 100px) {
   .containers {
     margin: 13px 13px 13px 13px; } }
 
@@ -234,31 +230,24 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 100%;
-    max-width: 10000px;
-    margin: 1.6em auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr); }
     .domicilio .containera .headera {
       background: #ceb089;
-      padding: 30px;
       border: 1px solid black;
       grid-column: 1/6;
-      text-align: center;
-      margin: 0px 40px 0px 40px; }
+      text-align: center; }
       .domicilio .containera .headera h1 {
         font-size: 40px;
         font-weight: bold; }
     .domicilio .containera .contenta {
       background: #5a5a5a;
-      padding: 40px;
+      padding: 10px;
       border: 1px solid black;
       grid-column: span 5;
-      margin: 0px 40px 0px 40px; }
+      margin: 10px 10px 10px 10px; }
     .domicilio .containera .article {
       background-color: #5a5a5a;
-      padding: 40px;
-      margin-top: 5px;
       margin: 5px 5px 5px 5px;
       color: white;
       font-size: 19px; }
@@ -269,7 +258,7 @@ footer {
         padding: 10px;
         font-size: 20px; }
     .domicilio .containera .sidebar {
-      margin: 0px 40px 0px 40px;
+      margin: 10px 10px 10px 10px;
       background: #FFF;
       padding: 40px;
       border: 1px solid black;
