@@ -183,10 +183,6 @@ footer {
   .contianera .sidebar {
     grid-column: 1/-1; } }
 
-@media (min-width: 720px) {
-  .containers {
-    margin: 13px 13px 13px 13px; } }
-
 .ae {
   background-color: #c3ae92;
   background-repeat: no-repeat;
