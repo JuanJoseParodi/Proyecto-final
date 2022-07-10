@@ -195,7 +195,8 @@ footer {
   .ae .produc {
     background-color: #312f2a;
     display: flex;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin-top: 12px; }
     .ae .produc h1 {
       color: #ceb089; }
     .ae .produc a {
